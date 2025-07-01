@@ -1,7 +1,7 @@
 
 temperaturas = [18,22,25,20,21] 
 umbral = 20
-
+#parametros actuales: temperaturas, umbral
 def temperatura_media_alta(temperaturas: list, umbral: int)-> bool:
     """"
     funcion que recibe una lista y un valor y calcula si el promedio de la lista es mayor que el valor dado
@@ -26,7 +26,6 @@ def temperatura_media_alta(temperaturas: list, umbral: int)-> bool:
 
 
 if temperatura_media_alta(temperaturas, umbral): # invocacion de la funcion 
-    #parametros actuales: temperaturas,umbral
     print('la temperatura es mayor que el umbral')
 else:
     print('la temperatura es menor que el umbral')
